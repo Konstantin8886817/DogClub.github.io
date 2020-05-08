@@ -1,0 +1,295 @@
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.color-yellow {
+    color: #FFD708;
+}
+
+#header {
+    background: url('./img/bg_main.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 700px;
+}
+
+.nav {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.nav img {
+    float: left;
+}
+
+.nav ul {
+    float: right;
+    margin-top: 15px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#header h1 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: bold;
+    width: 50%;
+}
+
+#header .item {
+    margin: 10px 0;
+}
+
+#header .item span {
+    width: 10px;
+    background-color: #FFD708;
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#header .item h2 {
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.btn {
+    color: black;
+    background-color: #FFD708;
+    border-radius: 25px;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+#speak-section {
+    padding: 80px 0;
+    background-color: #FFD708;
+}
+
+#speak-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#speak-section p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#welcome {
+    background: url('./img/bg_welcome.png') no-repeat right;
+    background-size: contain;
+    padding: 50px;
+}
+
+#welcome h2 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#welcome h3 {
+    width: 70%;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#welcome p {
+    font-size: 18px;
+    width: 343px;
+}
+
+#news {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #FFF7ED;
+}
+
+#news h2.title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#news .card {
+    display: inline-block;
+    margin: 0 15px;
+    width: calc(80% / 3 - 30px);
+    background-color: #FFD708;
+    padding: 20px;
+    vertical-align: top;
+    position: relative;
+}
+
+#news .card img {
+    width: 100%;
+}
+
+#news .card .date {
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#news .card .month {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#news .card h3 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#news .card p {
+    margin-top: 10px;
+}
+
+#news .card .line {
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 40px);    
+}
+
+#gallery {
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#gallery .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FFD708;
+    margin-bottom: 25px;
+}
+
+#gallery img.images {
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+#gallery .prevBtn, 
+#gallery .nextBtn {
+    display: inline-block;
+    margin: 20px 15px 0;
+}
+
+#gallery .prevBtn img, 
+#gallery .nextBtn img {
+    width: 40px;
+}
+
+#articles {
+    padding: 50px 0;
+    background-color: #FFF7ED;
+    text-align: center;
+}
+
+#articles h2 {
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#articles .card {
+    display: inline-block;
+    margin: 0 10px;
+    width: calc(100% / 4 - 20px);
+    vertical-align: top;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+#articles img {
+    width: 100%;
+}
+
+#articles h3 {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#articles p {
+    font-size: 18px;
+    margin: 10px 10px 0;
+}
+
+#contacts {
+    overflow: hidden;
+    padding: 50px;
+    background-color: #FFD708;
+}
+
+#contacts .left {
+    float: left;
+}
+
+#contacts .left h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#contacts .right {
+    float: right;
+    text-align: right;
+}
+
+#contacts .right img {
+    width: 32px;
+    margin-left: 10px;
+}
+
+#contacts .right p {
+    margin: 10px 0;
+}
+
